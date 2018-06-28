@@ -16,5 +16,5 @@ module.exports = app => {
     encodingAESKey: 'hp4a8rCuOS7d1o1zrO61ZhlKM6BM4wGtUtKRiWukzqx'
   });
   router.get('/wechat', wechat);
-
+  router.post('/wechat', wechat);
 };
